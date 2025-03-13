@@ -15,8 +15,8 @@ st.write(
 
 
 def load_species_data():
-    file_path = "data/GBIF_OBIS_species_list_period_2000_2020_final.xlsx"
-    data = pd.read_excel(file_path)
+    file_path = "data/GBIF_OBIS_species_list_period_2000_2020_final.csv"
+    data = pd.read_csv(file_path)
     return data
 
 # Cargar los datos
