@@ -35,7 +35,7 @@ git commit -m "Primer commit"  # Guarda los cambios con un mensaje
 git status # Para ver si hay cambios sin guardar en el repo local
 
 git add .
-git commit -m "Guardando cambios antes de hacer pull"
+git commit -m "Actualizacion de los ficheros de datos periodo 2000_2020"
 git pull origin main --rebase
 
 
