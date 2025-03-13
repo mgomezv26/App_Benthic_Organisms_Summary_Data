@@ -81,7 +81,7 @@ st.altair_chart(chart_PS, use_container_width=True)
 st.markdown("## 3. Number of records per species")
 
 def get_species_data():
-    df = pd.read_csv("data/combine_data_drop_duplicates_year.csv")
+    df = pd.read_csv("data/Data_Occurrence_period_2000_2020.csv")
     species_counts = df.groupby("species").size().reset_index(name="count")  # Equivalente a dplyr::summarise(count = n())
     return species_counts
 

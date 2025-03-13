@@ -16,7 +16,7 @@ st.write(
 # Cargar datos
 @st.cache_data
 def get_species_data():
-    df = pd.read_csv("data/combine_data_drop_duplicates_year.csv")
+    df = pd.read_csv("data/Data_Occurrence_period_2000_2020.csv")
     return df
 
 # Cargar los datos
