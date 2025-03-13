@@ -1,20 +1,6 @@
-app/
-│
-├── main.py                  # Archivo principal
-├── pages/                   # Carpeta para las páginas
-│   ├── co_occurrence.py     # Página para el gráfico de co-ocurrencia
-│   └── dataframe_view.py     # Página para mostrar el DataFrame
-└── data/                    # Carpeta para tus datos (opcional)
-    └── C_jacc_df_v1.csv     # Tu archivo de datos
-	
-	
-	
-	
-	
-	
 ##########################################################################################################
 
-APP ORGANISMOS BENTONICOS
+Comands for run app with strealit
 	
 conda activate Python_env_3_12
 

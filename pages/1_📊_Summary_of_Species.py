@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 from urllib.error import URLError
-import openpyxl
 
 st.set_page_config(page_title="Summary of species", page_icon="📊")
 
