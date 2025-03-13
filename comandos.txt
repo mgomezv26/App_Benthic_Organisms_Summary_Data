@@ -1,0 +1,25 @@
+app/
+│
+├── main.py                  # Archivo principal
+├── pages/                   # Carpeta para las páginas
+│   ├── co_occurrence.py     # Página para el gráfico de co-ocurrencia
+│   └── dataframe_view.py     # Página para mostrar el DataFrame
+└── data/                    # Carpeta para tus datos (opcional)
+    └── C_jacc_df_v1.csv     # Tu archivo de datos
+	
+	
+	
+	
+	
+	
+##########################################################################################################
+
+APP ORGANISMOS BENTONICOS
+	
+conda activate Python_env_3_12
+
+cd SCENIC MNCN CSIC Dropbox\Monica Gomez-Vadillo\02_NICHE_BENTHIC_ORGANISMS\App_python
+
+streamlit run Hello.py
+
+streamlit run App_niche_benthic.py
