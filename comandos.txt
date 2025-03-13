@@ -23,3 +23,26 @@ cd SCENIC MNCN CSIC Dropbox\Monica Gomez-Vadillo\02_NICHE_BENTHIC_ORGANISMS\App_
 streamlit run Hello.py
 
 streamlit run App_niche_benthic.py
+
+##########################################################################################################
+
+1. Iniciar un repositorio en el proyecto desde VS Code
+
+git init  # Inicializa un repositorio Git en la carpeta
+git add .  # Agrega todos los archivos al repositorio
+git commit -m "Primer commit"  # Guarda los cambios con un mensaje
+
+git status # Para ver si hay cambios sin guardar en el repo local
+
+git add .
+git commit -m "Guardando cambios antes de hacer pull"
+git pull origin main --rebase
+
+
+
+2. Vincular el repositorio local con GitHub
+
+git remote add origin https://github.com/mgomezv26/App_Benthic_Organisms_Summary_Data.git
+git branch -M main
+git push -u origin main
+
